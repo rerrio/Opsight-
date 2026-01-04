@@ -1,5 +1,6 @@
 {
   "name": "opsight",
+  "packageManager": "npm@10.0.0",
   "homepage": "https://rerrio.github.io/Opsight-",
   "dependencies": {
     "react": "^18.2.0",
