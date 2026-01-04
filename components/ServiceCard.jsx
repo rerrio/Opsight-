@@ -1,6 +1,6 @@
 // ServiceCard.jsx
 // Copy the complete code from your original document here
-// This file contains the ServiceCard component  
+// This file contains the ServiceCard component  p
 
 import React from 'react';
 import { Card } from '@/components/ui/card';
