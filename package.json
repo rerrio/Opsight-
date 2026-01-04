@@ -1,0 +1,14 @@
+{
+  "name": "opsight",
+  "homepage": "https://rerrio.github.io/Opsight-",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "build": "react-scripts build"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1"
+  }
+}
