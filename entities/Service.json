@@ -1,0 +1,22 @@
+{
+  "name": "Service",
+  "type": "object",
+  "properties": {
+    "name": { "type": "string", "description": "Service name" },
+    "type": { "type": "string", "enum": ["VPN", "AdBlocker"], "description": "Type of service" },
+    "description": { "type": "string", "description": "Brief description" },
+    "price_monthly": { "type": "number", "description": "Monthly price in USD" },
+    "price_yearly": { "type": "number", "description": "Yearly price in USD" },
+    "rating": { "type": "number", "description": "Rating out of 5" },
+    "platforms": { "type": "array", "items": { "type": "string" }, "description": "Supported platforms" },
+    "key_features": { "type": "array", "items": { "type": "string" }, "description": "Key features" },
+    "privacy_rating": { "type": "number", "description": "Privacy score out of 5" },
+    "performance_rating": { "type": "number", "description": "Performance score out of 5" },
+    "logo_url": { "type": "string", "description": "Logo image URL" },
+    "website_url": { "type": "string", "description": "Official website" },
+    "pros": { "type": "array", "items": { "type": "string" }, "description": "Pros" },
+    "cons": { "type": "array", "items": { "type": "string" }, "description": "Cons" },
+    "is_favorite": { "type": "boolean", "default": false, "description": "Favorite status" }
+  },
+  "required": ["name", "type"]
+}
